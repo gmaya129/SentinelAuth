@@ -1,0 +1,27 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Virtual environment ----
+.venv/
+venv/
+
+# ---- ML artifacts ----
+*.joblib
+baseline_model.joblib
+training_summary.json
+
+# ---- Logs / outputs ----
+*.log
+report*.csv
+report*.json
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE ----
+.idea/
+ummary.json
